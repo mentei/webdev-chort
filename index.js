@@ -66,3 +66,37 @@ console.log(arr2);
 array.forEach(function(value){
     console.log(value);
 });
+
+
+// array of objects '
+
+let students=[
+    {name:'harkirat', age:18},
+    {name:'ali', age:17},
+    {name:'mohit', age:19},
+];
+
+console.log(students[2].name);
+
+// objects of objects
+let person={
+    name:'harkirat',
+    age:18,
+    address:{
+        city:'delhi',
+        state:'Delhi',
+        country:'India',
+    },
+    hobbies:['reading','painting','cooking'],
+    sayHello:function(){
+        console.log('hello');
+    }
+}
+
+
+person.sayHello();
+
+//  classes
+
+
+
